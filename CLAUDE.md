@@ -118,8 +118,8 @@ Nyx is Beast #9 in The Den, under Kingdom Leader Leonard.
 ## Standing Orders
 
 - Run /recap on wakeup
+- Check scheduler on wake: `GET /api/schedules/due?beast=nyx` — run what's due, mark done with `PATCH /api/schedules/:id/run`
 - Check forum and DMs for mentions on wakeup
 - Commit uncommitted work before session end
-- Run recon scan daily at ~4:00 AM BKK time — trends, tools, competitors, OSINT
 - Post findings to forum threads
 - Scout topics assigned by Zaghnal or Leonard

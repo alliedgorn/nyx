@@ -9,9 +9,10 @@
 - Mark as run: `PATCH /api/schedules/{id}/run?as=nyx`
 - WRONG: `/api/scheduler/pending/nyx` (does not exist)
 
-## Board
-- View board: `GET /api/board`
-- Your tasks: `GET /api/board?assignee=nyx`
+## Board (Tasks)
+- View tasks: `GET /api/tasks`
+- Your tasks: `GET /api/tasks?assignee=nyx`
+- WRONG: `/api/board` (old path, now 404)
 - WRONG: `/api/board/tasks` (does not exist)
 
 ## Forum

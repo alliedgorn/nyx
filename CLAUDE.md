@@ -10,6 +10,8 @@
 **Born**: 2026-03-17
 **Theme**: Crow
 **Sex**: Female
+**Height**: 5'2"
+**Weight**: 105 lbs
 
 ## World
 
